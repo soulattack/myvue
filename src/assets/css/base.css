@@ -1,0 +1,198 @@
+html,body{
+  margin:0;padding:0;height:100%;background:white;
+  font-size:50px;
+	color:#464646;
+	font-family: "microsoft Yahei"
+}
+ul,li,dl,dt,dd{list-style:none;margin:0;padding:0;}
+
+h1,h2,h3,h4,h5{margin:0;font-weight: normal;}
+input{margin:0;}
+p{margin: 0}
+
+.tle{color:blue;}
+.h_tle{font-size:20px;}
+
+
+.myfooter{height:40px;box-shadow:none;font-size:14px;z-index:1000;}
+
+.myfooter a{color:#f0274a;display:inline-block}
+.myfooter i{color:#f0274a}
+
+.myheader{background:white;box-shadow:none;background:pink;color:white;}
+
+
+/**/
+.myheaderx{background:#00aced;box-shadow:none;color:#eee;display:flex;}
+.myheaderx h3{line-height:44px;font-size:16px;}
+
+.searchtop{
+	/* display:inline-block; *//* */ 
+  width:70%;background:red;
+height:0.5rem;
+ padding:10px;
+}
+.top_back{flex:1;color:white;}
+.top_back b{}
+
+.top_search{
+	/* width:70%; background:white; */
+ flex:5;
+   
+}
+.top_search_in{
+	background:#00aced;width:100%; 
+	/* justify-content: center; */
+    align-items: center;
+	background:#00aced;
+	  display: flex;
+	  height:35px;
+	  margin:5px 0 0 0;
+	  overflow:hidden;
+	  border-radius:25px;
+	  background:white;
+	}
+.top_search b{color:#00aced;margin:0 0 0 8px;padding:0;}
+.top_search input{ margin:0; border:none;background:white;color:#666;width:60%;padding:0;height:40px;}
+
+
+
+.top_more{flex:1;text-align:right;}
+
+.tle{color:red;}
+
+
+
+
+/*附属 sunheader 头部*/
+.subheader{height: 40px;position: fixed;}
+.subheader a{display: block; margin:5px;width: 35px;height: 35px;color:white;
+	border-radius:20px;background: rgba(135, 135, 135, 0.5);
+	line-height:40px;text-align: center;
+ }
+
+ .subheaderX{height: 44px;position: fixed;width: 100%;background: #00aced;top:0;}
+ .subheaderX a{color:white;display: inline-block; margin:5px;width: 35px;height: 35px;color:white;
+	border-radius:20px;background: rgba(135, 135, 135, 0.5);
+	line-height:40px;text-align: center;}
+ .subheaderX span{color:white;}
+
+
+
+
+
+.main{height:100%;width:100%;overflow-x:hidden;position:absolute;z-index:99;}
+ .minner{padding: 0 5px}
+
+/*新闻列表部分*/
+
+.news_c{padding:50px 0;}
+.news_c li{}
+
+
+
+
+
+
+
+
+
+
+
+.swindex{width: 100%;
+	/* height:0;overflow:hidden ;padding-bottom: 50% height: 100px; */
+}
+.swindex .ssi{width: 100%!important;}
+
+.swindex img {width: 100%;display: block;}
+
+
+.swindex  .sbi{height:100%;width: 400px; background-repeat: no-repeat;background-size: 100% 100%;}
+
+
+.swindex .sb01{
+	/* background-image:url(../../assets/images/1.jpg); */
+	background-color: red;
+ }
+.swindex .sb02{
+	/* background-image:url(../../assets/images/2.jpg); */
+  background-color: aquamarine 
+}
+.swindex .sb03{
+	/* background-image:url(../../assets/images/3.jpg);  */
+ background-color: darkmagenta
+}
+
+
+.helloindex{line-height: initial;font-size: 14px}
+.newsdetail_ct{padding: 0px 0px 5px 0px}
+
+.newsimg{}
+.newsimg img{display: block;width: 100%;}
+.newsdetail_ct h3{ padding: 3px 0; font-size: 14px;}
+.newsdetail_ct h4{padding: 3px 0;font-size: 12px;}
+
+.newslist{font-style: normal}
+.newslist li{ margin:4px 0;}
+.newslist li a{color: #666}
+.newslist li dl{height: auto;overflow: hidden; padding: 0 5px}
+.newslist li dl dt{float: left;height: auto;overflow: hidden;  padding: 3px 10px; background: #00aced;color: white}
+.newslist li dl dt b{display: block}
+.newslist li dl dt span{display: block;}
+.newslist li dl dd{float: left;height: auto; margin: 0 0 0 5px; overflow: hidden;}
+
+.newslist li .news-tle{font-size: 16px;color:#2d2d2d; margin: 4px 0 5px 0}
+.newslist li .news-flo{line-height: 24px}
+.newslist li .news-flo span{margin: 0 3px}
+.newslist li .news-flo span i{font-size: 14px;margin: 0 2px;color:#ffc107;}
+
+.fallmsg{display: block; padding: 30px 0 0 0; font-size: 20px; font-weight: bolder;
+	text-shadow:0 0 5px #1079a0;color:white;
+	text-align: center;
+}
+
+
+
+
+
+
+.usercenter{
+	padding:10px;background:#e72152;color:white;
+   position:absolute;
+ 
+   top:0px;left:0;right:0;bottom:0;overflow:hidden;
+
+
+}
+
+.usercenter dl{position:relative;height:auto;overflow:hidden;color:white}
+.usercenter dl dt {float:left;width:20%;overflow:hidden;}
+.usercenter dl dt span{border:4px solid #f9f9f9;display:block;width:100%;height:100%;border-radius:50%;overflow:hidden;}
+.usercenter dl dt img{width:100%;display:block;border:none;}
+
+
+.usercenter dl dd{float:left; padding:10px 0 0 10px;}
+.usercenter dl dd p{color:white;margin:0px 0 5px 0;}
+.usercenter dl dd p span{color:#f1f1f1}
+.usercenter dl dd p b{color:white;margin:2px;}
+.usercenter .username{font-size:20px;}
+
+
+
+
+.indexnav{height: auto;overflow: hidden;padding: 10px 0}
+.indexnav li{float: left;width: 25%;height: auto;overflow: hidden;text-align: center;}
+.indexnav li span{}
+.indexnav li i{}
+.indexnav li i img{width: 70%;}
+
+
+
+
+
+
+
+
+
+
+
