@@ -10,6 +10,7 @@ import User from '@/components/User'
 import City from '@/components/City'
 
 import Ch01 from '@/components/channel/channel01.vue'
+import Clock from '@/components/channel/channelClock.vue'
 //import bd from '@/components/index/Swiper.vue'
 
 
@@ -38,8 +39,9 @@ export default new Router({
       path: '/index',
       name: 'Index',
       component: Index,
-	  children:[ 
-	     { path:'/ch01', component:Ch01 }
+	    children:[ 
+	       { path:'/ch01', component:Ch01 },
+	       { path:'/clock', component:Clock }
 		
 		]
     },

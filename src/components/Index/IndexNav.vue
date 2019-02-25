@@ -6,6 +6,11 @@
         <li><router-link to="/city"><i><img src="../../assets/images/icon/264.png" alt=""></i><span></span></router-link></li>
         <li><router-link to="/news"><i><img src="../../assets/images/icon/267.png" alt=""></i><span></span></router-link></li>
         <li><router-link to=""><i><img src="../../assets/images/icon/268.png" alt=""></i><span></span></router-link></li>
+        <li><router-link to="/news"><i><img src="../../assets/images/icon/267.png" alt=""></i><span></span></router-link></li>
+        <li><router-link to=""><i><img src="../../assets/images/icon/268.png" alt=""></i><span></span></router-link></li>
+        <li><router-link to="/news"><i><img src="../../assets/images/icon/267.png" alt=""></i><span></span></router-link></li>
+        <li><router-link to="/clock"><i><img src="../../assets/images/icon/259.png" alt=""></i><span></span></router-link></li>
+     
     
     </ul>
    

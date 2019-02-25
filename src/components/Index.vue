@@ -57,12 +57,12 @@ export default {
 
 <!-- Add "scoped" ,showb 为该子项目显示的自定义形式-->
 <style scoped>
- .showb-enter{opacity:0;
+ .showb-enter{opacity:0; position:absolute;}
  
- position:absolute;}
-.showb-leave-to{opacity:0;
 
-position:absolute;}
-.showb-enter-active{ transition:all 0.5s ease;}
-.showb-leave-active{ transition:all 0.5s ease;}
+.showb-leave-to{opacity:0;  position:absolute;}
+
+   
+.showb-enter-active{ transition:all 0.25s ease;}
+.showb-leave-active{ transition:all 0.25s ease;}
 </style>

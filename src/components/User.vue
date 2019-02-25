@@ -4,7 +4,7 @@
   <div class="bswrapp usercenter" ref="wrapp">
     <div class="">
      <dl>
-       <dt><span><img :src="imgpath+list.headimg"></span></dt>
+       <dt><span><img :src="list.headimg?imgpath+list.headimg:this.dfimg"></span></dt>
       <dd>
        <p class="username">
        <span>ID:{{ list.id }}</span><span>{{ list.name }}</span>
@@ -36,6 +36,7 @@
 </template>
 
 <script>
+import headimg from '@/assets/images/number/10.png'
 import btScroll from 'better-scroll'
 import headsearch from './headerTitle.vue'
 export default {
@@ -43,8 +44,9 @@ export default {
   data:function () {
     return {
       msg: 'USER info',
-	  list:{},
-	  imgpath:'http://192.168.1.104/aj/'
+      list:{},
+      dfimg:headimg,
+	    imgpath:'http://192.168.1.104/aj/'
 	  
     }
   },

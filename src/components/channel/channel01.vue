@@ -2,7 +2,7 @@
   <div class="channel">
    <div class="ch_inner">
    
-    <h2> <a @click.prevent="$router.go(-1);"><<<</a></h2>
+    <h2> <a @click.prevent="$router.go(-1);"> <i class="mui-icon mui-icon-close"></i> </a></h2>
     <h2><router-link to="/index">返回</router-link></h2>
     <h3>{{ msg }}</h3>
 
@@ -27,7 +27,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.channel{width:100%;height:100%; position:absolute;top:0;z-index:999;background:rgba(0,0,0,0.15);}
+.channel{width:100%;height:100%; position:absolute;top:0; left: 0; z-index:999;background:rgba(0,0,0,0.15);}
 .ch_inner{
    margin:10% 5%;height:50%;background:white;
    border-radius:8px;
