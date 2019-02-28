@@ -10,6 +10,9 @@ h1,h2,h3,h4,h5{margin:0;font-weight: normal;}
 input{margin:0;}
 p{margin: 0}
 
+.txtoverflow{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+
 .tle{color:blue;}
 .h_tle{font-size:20px;}
 
@@ -180,7 +183,7 @@ height:0.5rem;
 
 
 
-.indexnav{height: auto;overflow: hidden;padding: 10px 0}
+.indexnav{height: auto;overflow: hidden;padding: 4px 0}
 .indexnav li{float: left;width: 25%;height: auto;overflow: hidden;text-align: center;}
 .indexnav li span{}
 .indexnav li i{}
@@ -188,8 +191,15 @@ height:0.5rem;
 
 
 
+.indexcom{width: 100%;padding: 0 0 50px 0;}
+.indexcom ul{height: auto;overflow: hidden;width: 100%;}
+.indexcom ul li{ float: left; width: 48%; background: #f1f1f1; margin:5px 1%;}
+.indexcom ul li dl{}
+.indexcom ul li dl dt{position: relative;}
 
-
+.indexcom ul li dl dt img{ width: 100%;display: block;}
+.indexcom ul li dl dt span{display:block;position: absolute; padding:2px 3px;width:100%;bottom:0;background: rgba(0, 0, 0, 0.35);color:white}
+.indexcom ul li dl dd{}
 
 
 

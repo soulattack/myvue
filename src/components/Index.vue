@@ -10,6 +10,7 @@
      <transition name="showb">
        	 <router-view/>
      </transition>
+     <indexcom></indexcom>
   </div>	 
   </div>
 </template>
@@ -18,6 +19,7 @@
 import headindex from './HeaderIndex.vue'
 import indexnav from './Index/IndexNav.vue'
 import swiperboard from './Index/Indexboard.vue'
+import indexcom from './Index/IndexCom.vue'
 
 //import 'swiper/dist/css/swiper.css'////这里注意具体看使用的版本是否需要引入样式，以及具体位置。
  //import { swiper, swiperSlide } from 'vue-awesome-swiper'
@@ -27,7 +29,7 @@ export default {
   name: 'index',
   data:function () {
     return {
-      msg: '我是首页11',
+      msg: '我是首页',
      list:{},
      nnmum:11,
      // swiperOption: {
@@ -42,7 +44,8 @@ export default {
    indexnav:indexnav,
     //swiper,
      // swiperSlide
-   swiperboard
+   swiperboard,
+   indexcom
   },
      props:['newsnums'],
    
