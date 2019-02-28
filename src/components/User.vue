@@ -8,6 +8,7 @@
       <dd>
        <p class="username">
        <span>ID:{{ list.id }}</span><span>{{ list.name }}</span>
+       <span> <img src="../assets/images/qrcode.png" alt=""> </span>
        </p>  
       <p>
         <span><b>{{ list.followsnum }}</b>关注</span><span><b>{{ list.fansnum }}</b>粉丝</span>   

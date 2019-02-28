@@ -1,12 +1,11 @@
 <template>
   <div class="swiperboard swindex">
-   <swiper :options="swiperOption">
+    <swiper :options="swiperOption">
+      <swiper-slide class="ssi"><img src="http://imgs.aixifan.com/block_1551272091767-MpEtuUbM9f?imageView2/1/w/508/h/260/q/100" alt=""></swiper-slide>
       <swiper-slide class="ssi"><img src="http://imgs.aixifan.com/cms/2019_02_19/1550560183792.jpg?imageView2/1/w/508/h/260/q/100" alt=""></swiper-slide>
       <swiper-slide class="ssi"><img src="http://imgs.aixifan.com/cms/2019_02_19/1550548496841.png?imageView2/1/w/508/h/260/q/100" alt=""></swiper-slide>
       <swiper-slide class="ssi"><img src="http://imgs.aixifan.com/cms/2019_02_19/1550557042453.jpg?imageView2/1/w/508/h/260/q/100" alt=""></swiper-slide>
-      <swiper-slide class="ssi"><img src="../../assets/images/1.png" alt=""></swiper-slide>
- 
-   
+      <swiper-slide class="ssi"><img src="../../assets/images/1.png" alt=""></swiper-slide> 
     </swiper>
     
     <!--以下看需要添加  

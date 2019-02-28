@@ -9,7 +9,7 @@
         <li><router-link to="/news"><i><img src="../../assets/images/icon/267.png" alt=""></i><span></span></router-link></li>
         <li><router-link to=""><i><img src="../../assets/images/icon/268.png" alt=""></i><span></span></router-link></li>
         <li><router-link to="/news"><i><img src="../../assets/images/icon/267.png" alt=""></i><span></span></router-link></li>
-        <li><router-link to="/clock"><i><img src="../../assets/images/icon/259.png" alt=""></i><span></span></router-link></li>
+        <li @click="handclick"><router-link to="/clock"><i><img src="../../assets/images/icon/259.png" alt=""></i><span></span></router-link></li>
      
     
     </ul>
@@ -27,7 +27,15 @@ export default {
    
     }
   },
-  props:['newsnums']
+  props:['newsnums'],
+  methods:{
+    handclick () {
+     // alert(this.$store.state.showme);
+     // this.$store.dispatch('hideFooter')
+      //alert();
+      
+    }
+  }
 
 }
 	 

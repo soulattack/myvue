@@ -7,7 +7,7 @@
     <h3>{{ msg }}----时间</h3> -->
      <div class="clock" id="clock" >
        <div>
-         {{time}}
+         {{this.$store.state.showme}}
            <!--
             <img src="../../assets/images/number/10.png" alt=""> 
             <img :src="src10" alt=""> -->
@@ -111,6 +111,8 @@ export default {
   mounted:function(){
     this.clock();
     this.timer= setInterval(this.clock,1000);
+    //alert(this.$store.state.showme)
+    this.$store.state.showme=false;
   // 
 
   },
@@ -119,6 +121,7 @@ export default {
   },
   beforeDestroy() {              // 当退出当前页面时候 必须组件销毁前 清除定时器 不然定时器会一直执行
     //clearInterval(this.timer);
+      this.$store.state.showme=true;
     clearInterval(this.timer);
   }
 }

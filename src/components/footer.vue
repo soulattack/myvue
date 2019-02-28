@@ -1,5 +1,5 @@
 <template>
-   <footer class="mui-bar mui-bar-tab myfooter">
+   <footer class="mui-bar mui-bar-tab myfooter"  v-show="$store.state.showme">
     <div class="footer">
       <router-link to="/index" class="mui-tab-item">
 	    <!-- <i class="icon iconfont icon-bianji"></i><b>首页</b> -->
@@ -15,7 +15,7 @@
       <router-link to="/user" class="mui-tab-item">
 	   <!-- <i class="icon iconfont icon-person"></i><b>个人</b> -->
 	          <span class="mui-icon mui-icon-person"></span>
-				<span class="mui-tab-label">个人</span>
+			    	<span class="mui-tab-label">个人</span>
 	   </router-link>
     
       <router-link to="/news" class="mui-tab-item " id="a2">
@@ -41,7 +41,8 @@ export default {
     return {
       msg: 'WelcomeMY',
 	  list:{},
-	  nnmum:null
+		nnmum:null
+	//	showor:this.$store.state.showme
     }
   },
    props:['newsnums'],
@@ -54,7 +55,11 @@ export default {
 	  })
    
    
-   }
+	 },
+	 created:function(){
+
+		// this.$store.state.showme=false
+	 }
 
 }
 	 

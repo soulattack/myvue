@@ -2,11 +2,13 @@
   <div id="app">
   <!-- <headerc></headerc>--> 
   <div class="main">
-    <transition>
+    <transition name="main">
      <router-view/>
    </transition>
   </div>
-  <footerc></footerc> 
+    <transition name="foottab">
+     <footerc></footerc> 
+    </transition>
  <!--
   	
  -->
@@ -29,13 +31,16 @@ export default {
  
 }
 
+.foottab-enter{position: absolute}
+.foottab-leave-to{position: absolute}
+.foottab-enter-active{transition:all 0.5s ease;}
+.foottab-leave-active{transition:all 0.5s ease;}
 
 
-
-.v-enter{opacity:0;transform:translateX(100%);position:absolute;}
-.v-leave-to{opacity:0;transform:translateX(-100%);position:absolute;}
-.v-enter-active{ transition:all 0.5s ease;}
-.v-leave-active{ transition:all 0.5s ease;}
+.main-enter{opacity:0;transform:translateX(100%);position:absolute;}
+.main-leave-to{opacity:0;transform:translateX(-100%);position:absolute;}
+.main-enter-active{ transition:all 0.5s ease;}
+.main-leave-active{ transition:all 0.5s ease;}
 
 
 

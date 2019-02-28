@@ -6,7 +6,7 @@
      <indexnav></indexnav>
      <!-- <div style="height:100px;"></div> -->
      <div><router-link to="/ch01">cc频道</router-link></div>
-     <div>{{nnmum}}条新闻</div>   
+     <div>{{nnmum}}条新闻----{{this.$store.state.msgNum}}</div>   
      <transition name="showb">
        	 <router-view/>
      </transition>
@@ -54,7 +54,6 @@ export default {
 }
 	 
 </script>
-
 <!-- Add "scoped" ,showb 为该子项目显示的自定义形式-->
 <style scoped>
  .showb-enter{opacity:0; position:absolute;}

@@ -8,7 +8,7 @@ import Resource from "vue-resource"
 import router from './router'
 
 
-
+import store from './store'     //引入store
 
 
 
@@ -49,6 +49,7 @@ Vue.component("footerc",footer);
 new Vue({
   el: '#app',
   router:router,
+  store,
   components: { App },
   template: '<App/>'
 })
