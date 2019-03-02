@@ -8,32 +8,28 @@
       <dd>
        <p class="username">
        <span>ID:{{ list.id }}</span><span>{{ list.name }}</span>
-       <span> <img src="../assets/images/qrcode.png" alt=""> </span>
+     
        </p>  
       <p>
         <span><b>{{ list.followsnum }}</b>关注</span><span><b>{{ list.fansnum }}</b>粉丝</span>   
 	     </p>
-   </dd>
+    </dd>
+    <dd>
+        <span> <img src="../assets/images/qrcode.png" alt=""> </span>
+    </dd>
   </dl>
-
    <ul>
       <!--     <span class="icon iconfont" >&#xeb74;</span>
       <span class="icon iconfont icon-zuzhizhankai"></span> -->
      <br/> <br/> <br/> <br/> <br/><br/> <br/> <br/><br/><br/>
      <br/> <br/> <br/> <br/> <br/><br/> <br/> <br/><br/><br/>
-    
-   
     <li>{{ list.level }}</li>
 	 <br/> <br/> <br/> <br/> <br/><br/> <br/> <br/><br/><br/>
 	   <li>{{ list.level }}</li>
 	 <br/> <br/> <br/> <br/> <br/><br/> <br/> <br/><br/><br/>
    </ul>  
-
-   
-
   </div>
  </div>
-
 </template>
 
 <script>

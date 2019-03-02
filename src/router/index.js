@@ -8,7 +8,9 @@ import NewsInfo from '@/components/NewsInfo'
 import List from '@/components/List'
 import User from '@/components/User'
 import City from '@/components/City'
+
 import ComList from '@/components/comList'
+import BankList from '@/components/banksList'
 
 import Ch01 from '@/components/channel/channel01.vue'
 import Clock from '@/components/channel/channelClock.vue'
@@ -34,6 +36,16 @@ export default new Router({
       path: '/comlist',
       name: 'comlist',
       component: ComList
+    },
+    {
+      path: '/list',
+      name: 'list',
+      component: List
+    },
+    {
+      path: '/banklist',
+      name: 'banklist',
+      component: BankList
     },
 	  {
       path: '/newsinfo/:id',

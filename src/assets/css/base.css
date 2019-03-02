@@ -202,7 +202,10 @@ height:0.5rem;
 .indexcom ul li dl dd{}
 
 
+.pullListbox{line-height: initial;font-size: 0.25rem;}
+.pullListbox .pl-tle{position: relative;height: 40px; background: #00aced;z-index: 2;}
 
-
+.pullListbox .artlist{ padding: 40px 0 45px 0;}
+.pullListbox .artlist li{padding: 5px 0;}
 
 

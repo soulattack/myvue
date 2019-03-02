@@ -12,8 +12,8 @@
     <div class="swiper-scrollbar"></div> 
     <div class="swiper-button-next"></div> 
     <div class="swiper-button-prev"></div> 
-    <div class="swiper-pagination"></div>  -->
-
+   -->
+ <div class="swiper-pagination"></div>  
    
    
   </div>
@@ -31,9 +31,11 @@ export default {
     return {
       msg: 'indennav',
       swiperOption: {
-           autoplay: 23000,
+           autoplay: 2000,
            speed: 1000,
-      }
+           pagination:".swiper-pagination"
+      },
+      
    
     }
   },
@@ -49,5 +51,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+ /**/ 
+ .swiperboard{position: relative;}
+ .swiper-pagination{ bottom:5px;left: 50%;margin-left:-20px;} 
 </style>

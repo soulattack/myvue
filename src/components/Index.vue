@@ -4,9 +4,9 @@
     <div  class="helloindex">        
      <swiperboard></swiperboard>
      <indexnav></indexnav>
-     <!-- <div style="height:100px;"></div> -->
+     <!-- <div style="height:100px;"></div> 
      <div><router-link to="/ch01">cc频道</router-link></div>
-     <div>{{nnmum}}条新闻----{{this.$store.state.msgNum}}</div>   
+     <div>{{nnmum}}条新闻----{{this.$store.state.msgNum}}</div> -->  
      <transition name="showb">
        	 <router-view/>
      </transition>
